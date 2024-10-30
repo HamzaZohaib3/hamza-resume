@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hamza Zohaib - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .main-header {
+            background: #2C3E50;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .main-header h1 {
+            font-size: 2.5rem;
+        }
+
+        .main-header p {
+            font-size: 1.2rem;
+        }
+
+        /* Profile Image Styling */
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+
+        .about,
+        .portfolio,
+        .skills,
+        .education,
+        .leadership,
+        .contact {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #34495E;
+            margin-bottom: 20px;
+        }
+
+        .project, .education-details {
+            margin-bottom: 20px;
+            background-color: #F0F0F0;
+            padding: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Dark hover effect */
+        .project:hover, .education-details:hover {
+            background-color: #2C3E50;
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        a {
+            color: #1ABC9C;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        /* Dark hover effect for links */
+        a:hover {
+            color: #16A085;
+        }
+
+        footer {
+            background: #2C3E50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="container">
+            <!-- Profile Image -->
+            <img src="profile.jpg" alt="Hamza Zohaib" class="profile-img">
+            <h1>Hamza Zohaib</h1>
+            <p>Management Co-Head at MLSA UCP | Aspiring Game Developer | Computer Science Student at UCP</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a Computer Science student at the University of Central Punjab with a passion for game development, 
+            software engineering, and database management. I bring strong leadership and project management skills to 
+            every project, driven by a desire to deliver innovative solutions.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Word Search Game</h3>
+                    <p>Developed using C++, featuring game logic and word generation.</p>
+                </div>
+                <div class="project">
+                    <h3>Matrix Manipulation Program</h3>
+                    <p>A tool for performing matrix operations like addition, subtraction, and multiplication in C++.</p>
+                </div>
+                <div class="project">
+                    <h3>Student Grading System</h3>
+                    <p>A C++ application that stores student records and generates grade reports.</p>
+                </div>
+                <div class="project">
+                    <h3>General Store Database</h3>
+                    <p>SQL-based database for inventory management, sales reporting, and customer analytics.</p>
+                </div>
+                <div class="project">
+                    <h3>Laser Security System</h3>
+                    <p>Collaborative Arduino project involving laser modules and alarms for security.</p>
+                </div>
+                <div class="project">
+                    <h3>Car Parking Game</h3>
+                    <p>Designed in C#, with three levels of gameplay and collision detection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>C++, C#, Python, HTML, CSS, JavaScript</li>
+                <li>SQL, Arduino, Bootstrap</li>
+                <li>AWS Certified Beginner</li>
+                <li>Leadership, Project Management</li>
+                <li>Microsoft Office (Word, PowerPoint)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-details">
+                <h3>University of Central Punjab, Lahore</h3>
+                <p>Bachelor of Science in Computer Science, GPA: 3.35</p>
+                <p>October 2021 - Present</p>
+            </div>
+            <div class="education-details">
+                <h3>Punjab Group of Colleges, Sheikhupura</h3>
+                <p>Intermediate in Sciences (Pre-Engineering)</p>
+                <p>March 2019 - September 2021</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership & Activities Section -->
+    <section id="leadership" class="leadership">
+        <div class="container">
+            <h2>Leadership & Activities</h2>
+            <ul>
+                <li>Management Co-Head at MLSA UCP Chapter</li>
+                <li>Team Leader in Laser Security System Project</li>
+                <li>Team Leader in Car Parking Game Development</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:hamzazohaib555@gmail.com">hamzazohaib555@gmail.com</a></p>
+            <p>Phone: +92 306 4622331</p>
+            <p>LinkedIn: <a href="http://www.linkedin.com/in/hamzazohaib" target="_blank">LinkedIn Profile</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Hamza Zohaib | All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
